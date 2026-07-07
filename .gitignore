@@ -1,0 +1,8 @@
+venv/
+*.db
+.env
+*.key
+*.crt
+*.csr
+*.srl
+__pycache__/
