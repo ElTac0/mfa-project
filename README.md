@@ -48,6 +48,7 @@ FLASK_SECRET_KEY=your_long_random_secret
 - **EMAIL_APP_PASSWORD** — a Google App Password (Google Account → Security → App Passwords;
   requires 2-Step Verification). Not your normal Gmail password.
 - **SMS_GATEWAY** — your mobile carrier's email-to-SMS domain. Common values:
+- Warning: Only the Verizon gateway has been tested. Unknown if other work.
   | Carrier    | Gateway                    |
   |------------|----------------------------|
   | Verizon    | `@vtext.com`               |
